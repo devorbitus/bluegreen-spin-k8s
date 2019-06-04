@@ -6,7 +6,7 @@ metadata:
     artifact.spinnaker.io/name: helloworld
     artifact.spinnaker.io/type: kubernetes/replicaSet
     artifact.spinnaker.io/version: v000
-    moniker.spinnaker.io/application: helloworld
+    moniker.spinnaker.io/application: cg-bluegreen
     moniker.spinnaker.io/cluster: replicaSet helloworld
     moniker.spinnaker.io/sequence: '0'
     strategy.spinnaker.io/max-version-history: '2'
@@ -29,7 +29,7 @@ spec:
         artifact.spinnaker.io/name: helloworld
         artifact.spinnaker.io/type: kubernetes/replicaSet
         artifact.spinnaker.io/version: v000
-        moniker.spinnaker.io/application: helloworld
+        moniker.spinnaker.io/application: cg-bluegreen
         moniker.spinnaker.io/cluster: replicaSet helloworld
         moniker.spinnaker.io/sequence: '0'
       labels:
