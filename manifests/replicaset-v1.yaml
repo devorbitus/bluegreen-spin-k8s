@@ -38,7 +38,7 @@ spec:
         tier: helloworld
     spec:
       containers:
-        - image: 'gcr.io/spinnaker-marketplace/helloworld:v1'
+        - image: 'gcr.io/hd-sqa-nonprod/github.com/devorbitus/bluegreen-spin-k8s'
           imagePullPolicy: IfNotPresent
           name: helloworld
           ports:
