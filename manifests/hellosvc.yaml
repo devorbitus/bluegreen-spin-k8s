@@ -5,7 +5,7 @@ metadata:
     artifact.spinnaker.io/location: default
     artifact.spinnaker.io/name: hellosvc
     artifact.spinnaker.io/type: kubernetes/service
-    moniker.spinnaker.io/application: helloworld
+    moniker.spinnaker.io/application: cg-bluegreen
     moniker.spinnaker.io/cluster: service hellosvc
   labels:
     app.kubernetes.io/managed-by: spinnaker
